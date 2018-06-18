@@ -18,10 +18,13 @@
   "author": "beeman",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "graphql-tag": "^2.9.2",
     "graphql-type-json": "^0.2.1",
     "graphql-yoga": "1.14.8",
-    "unfurl.js": "^1.1.6"
+    "haveibeenpwned": "^1.1.0",
+    "unfurl.js": "^1.1.6",
+    "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
     "graphql-cli": "2.16.3",
