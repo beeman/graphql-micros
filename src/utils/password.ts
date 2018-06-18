@@ -51,7 +51,7 @@ export const checkPassword = async (password: string, remote: boolean) => {
   score = remoteResult ? 0 : score
   return {
     score,
-    scorePercentage: score * 25,
+    percentage: score * 25,
     remote: remoteResult,
     error,
   }

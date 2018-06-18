@@ -22,7 +22,6 @@
     "graphql-tag": "^2.9.2",
     "graphql-type-json": "^0.2.1",
     "graphql-yoga": "1.14.8",
-    "haveibeenpwned": "^1.1.0",
     "unfurl.js": "^1.1.6",
     "zxcvbn": "^4.4.2"
   },

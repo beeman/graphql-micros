@@ -5,13 +5,23 @@ export const typeDefs = gql`
 
     type PasswordResult {
         error: String
+        percentage: Int!
         remote: Int
         score: Int!
-        scorePercentage: Int!
     }
-
+    type OgpUrlType {
+        url: String
+    }
+    type OgpType {
+        ogImage: [OgpUrlType]
+        ogSiteName: String
+        ogType: String
+        ogTitle: String
+        ogUrl: String
+        ogDescription: String
+    }
     type UnfurlResult {
-        ogp: JSON
+        ogp: OgpType
         other: JSON
     }
 
