@@ -33,3 +33,5 @@ query {
   gravatar(email: "borggreve@gmail.com" size: 200) 
 }
 ```
+
+# MIT License
